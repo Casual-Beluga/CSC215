@@ -70,8 +70,8 @@ main()
         printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
 }
 ```
-Additional Data types
--
+### Additional Data types
+
     char: character - a single byte
     short: a short integer
     long: a long integer

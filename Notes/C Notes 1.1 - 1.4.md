@@ -46,7 +46,7 @@ main()
 
 ```
 ### 1.3
-Converting fahrenheit to celsius using a for statement:
+Converting fahrenheit to celsius using a FOR statement:
 ```
 #include <stdio.h>
 // print Fahrenheit-Celsius table 

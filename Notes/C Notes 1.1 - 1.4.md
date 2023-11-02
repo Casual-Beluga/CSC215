@@ -77,7 +77,7 @@ Additional Data types
     long: a long integer
     double: double-precision floating point
     
-# Format Specifiers
+### Format Specifiers
 
     // format specifier % = defines and formats a type fo data to be dispalyed
 
@@ -91,7 +91,7 @@ Additional Data types
     %1 = minimum field width
     %- = left align
 
-# Symbolic Constants
+### Symbolic Constants
 "#define" can be used to give a value to a piece of text, it however is not a variable
 Ex:
     #define LOWER 0

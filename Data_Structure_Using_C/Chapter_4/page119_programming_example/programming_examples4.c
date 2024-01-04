@@ -25,3 +25,15 @@ same=1;
 printf("\n The two strings are equal");
 }
 }
+if(len1!=len2)
+printf("\n The two strings are not equal");
+if(same == 0)
+{
+if(str1[i]>str2[i])
+printf("\n String 1 is greater than string 2");
+else if(str1[i]<str2[i])
+printf("\n String 2 is greater than string 1");
+}
+getch();
+return 0;
+}

@@ -4,7 +4,6 @@
 int main()
 {
     char str[100], i = 0, length;
-    clrscr();
     printf("\n Enter the string : ");
     fgets(str, 100, stdin);
     while (str[i] != '\0')

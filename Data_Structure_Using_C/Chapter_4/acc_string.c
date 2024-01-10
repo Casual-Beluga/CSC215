@@ -19,16 +19,15 @@ int acc_strlen(char string[])
     return i;
 }
 
-char acc_low2up(char string[])
+char acc_low2up(const char string[], string2[])
 {
     for (int i = 0; string[i] != '\0'; i++)
     {
         if ('a' <= string[i] <= 'z')
         {
-            string[i] = string[i] - ('a' - 'A');
+            string2[i] = string[i] - ('a' - 'A');
         }
     }
-    return string;
 }
 
 char acc_strcat(char initial[], char append[])
